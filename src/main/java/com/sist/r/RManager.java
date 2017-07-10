@@ -69,12 +69,11 @@ public class RManager {
 			//몽고디비
 			//오라클
 			rc.voidEval("library(rJava)");
-			rc.voidEval("library(Rserve)");
 			rc.voidEval("library(RMongo)");//Rserve를 돌려야 아래 매소드 사용 가능
 			rc.voidEval("mongo<-mongoDbConnect(\"mydb\", \"211.238.142.104\", 27017)");
 			rc.voidEval("data<-dbGetQuery(mongo, \"student\", \"{}\")");
-			rc.voidEval("png(\"/home/sist/bigdataDev/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/RAndJavaFinalProject//main/graph.png\", width=700, height=500)");
-			rc.voidEval("barplot(data$avg, names.arg = data$name, col = rainbow(15), cex.name=0.3)");
+			rc.voidEval("png(\"/home/sist/bigdataDev/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/RAndJavaFinalProject/main/graph.png\", width=700, height=500)");
+			rc.voidEval("barplot(data$avg,names.arg=data$name,col=rainbow(15),cex.name=0.5,ylim=c(0,100))");
 			rc.voidEval("dev.off()");
 			rc.close();
 			
@@ -91,12 +90,11 @@ public class RManager {
 			//몽고디비
 			//오라클
 			rc.voidEval("library(rJava)");
-			rc.voidEval("library(Rserve)");//Rserve를 돌려야 아래 매소드 사용 가능
 			rc.voidEval("library(RMongo)");//Rserve를 돌려야 아래 매소드 사용 가능
 			rc.voidEval("mongo<-mongoDbConnect(\"mydb\", \"211.238.142.104\", 27017)");
 			rc.voidEval("data<-dbGetQuery(mongo, \"student\", \"{}\")");
-			rc.voidEval("png(\"/usr/local/sts-bundle/pivotal-tc-server-developer-3.1.3.SR1/base-instance/wtpwebapps/RAndJavaFinalProject/main/graph.png\", width=700, height=500)");
-			rc.voidEval("pie(data$avg, labels = data$name, col = rainbow(15))");
+			rc.voidEval("png(\"/home/sist/bigdataDev/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/RAndJavaFinalProject/main/graph.png\", width=700, height=500)");
+			rc.voidEval("pie(data$avg,labels=data$name,col=rainbow(15))");
 			rc.voidEval("dev.off()");
 			rc.close();
 			
@@ -108,7 +106,17 @@ public class RManager {
 	}
 	public void pie3D(){
 		try {
-			
+			RConnection rc=new RConnection();
+			rc.voidEval("library(rJava)");
+			rc.voidEval("library(RMongo)");//Rserve를 돌려야 아래 매소드 사용 가능
+			rc.voidEval("library(plotrix)");
+			rc.voidEval("mongo<-mongoDbConnect(\"mydb\", \"211.238.142.104\", 27017)");
+			rc.voidEval("data<-dbGetQuery(mongo, \"student\", \"{}\")");
+			rc.voidEval("png(\"/home/sist/bigdataDev/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/RAndJavaFinalProject/main/graph.png\", width=700, height=500)");
+			rc.voidEval("lab=paste(data$name,'\n','(',round(data$avg,1),')')");
+			rc.voidEval("pie3D(data$avg,labels = lab,col=rainbow(15),cex=0.3,explode = 0.05)");
+			rc.voidEval("dev.off()");
+			rc.close();
 		} catch (Exception e) {
 			System.out.println(e.getMessage());
 			e.printStackTrace();
@@ -117,12 +125,21 @@ public class RManager {
 	}
 	public void treemap(){
 		try {
-			
+			RConnection rc=new RConnection();
+
+			rc.voidEval("library(rJava)");
+			rc.voidEval("library(RMongo)");//RMongo를 돌려야 아래 매소드 사용 가능
+			rc.voidEval("library(treemap)");
+			rc.voidEval("mongo<-mongoDbConnect(\"mydb\", \"211.238.142.104\", 27017)");
+			rc.voidEval("data<-dbGetQuery(mongo, \"student\", \"{}\")");
+			rc.voidEval("png(\"/home/sist/bigdataDev/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/RAndJavaFinalProject/main/graph.png\", width=700, height=500)");
+			rc.voidEval("treemap(data,index=c(\"subject\",\"name\"),vSize=\"avg\",vColor=\"avg\",type=\"value\")");
+			rc.voidEval("dev.off()");
+			rc.close();
 		} catch (Exception e) {
 			System.out.println(e.getMessage());
 			e.printStackTrace();
 		}
-		
 	}
 	
 	

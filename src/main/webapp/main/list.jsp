@@ -14,6 +14,7 @@
 <body>
 	<center>
 	<%-- <%=application.getRealPath("/") %> --%>
+	<!-- /home/sist/bigdataDev/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/RAndJavaFinalProject/  -->
 		<table id="table_content" width=700>
 			<tr>
 				<td align="left">
