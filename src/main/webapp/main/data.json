@@ -1,0 +1,254 @@
+/* 1 */
+{
+    "_id" : ObjectId("595ddd49e4b0d6f65a15aff4"),
+    "_class" : "com.sist.dao.StudentVO",
+    "hakbun" : 1,
+    "name" : "홍길동",
+    "kor" : 56,
+    "eng" : 67,
+    "math" : 78,
+    "phy" : 100,
+    "history" : 89,
+    "chem" : 76,
+    "subject" : "컴퓨터공학",
+    "total" : 466,
+    "avg" : 78.0
+}
+
+/* 2 */
+{
+    "_id" : ObjectId("595ddd5fe4b0d6f65a15aff5"),
+    "_class" : "com.sist.dao.StudentVO",
+    "hakbun" : 2,
+    "name" : "심청이",
+    "kor" : 100,
+    "eng" : 89,
+    "math" : 45,
+    "phy" : 67,
+    "history" : 89,
+    "chem" : 89,
+    "subject" : "국어교육",
+    "total" : 479,
+    "avg" : 80.0
+}
+
+/* 3 */
+{
+    "_id" : ObjectId("595ddd74e4b0d6f65a15aff6"),
+    "_class" : "com.sist.dao.StudentVO",
+    "hakbun" : 3,
+    "name" : "춘향이",
+    "kor" : 100,
+    "eng" : 100,
+    "math" : 67,
+    "phy" : 89,
+    "history" : 56,
+    "chem" : 90,
+    "subject" : "전자공학",
+    "total" : 502,
+    "avg" : 84.0
+}
+
+/* 4 */
+{
+    "_id" : ObjectId("595ddd8de4b0d6f65a15aff7"),
+    "_class" : "com.sist.dao.StudentVO",
+    "hakbun" : 4,
+    "name" : "이순신",
+    "kor" : 90,
+    "eng" : 89,
+    "math" : 78,
+    "phy" : 78,
+    "history" : 78,
+    "chem" : 56,
+    "subject" : "화학과",
+    "total" : 469,
+    "avg" : 78.0
+}
+
+/* 5 */
+{
+    "_id" : ObjectId("595ddda5e4b0d6f65a15aff8"),
+    "_class" : "com.sist.dao.StudentVO",
+    "hakbun" : 5,
+    "name" : "박문수",
+    "kor" : 100,
+    "eng" : 67,
+    "math" : 67,
+    "phy" : 69,
+    "history" : 89,
+    "chem" : 45,
+    "subject" : "컴퓨터공학",
+    "total" : 437,
+    "avg" : 73.0
+}
+
+/* 6 */
+{
+    "_id" : ObjectId("595dddbbe4b0d6f65a15aff9"),
+    "_class" : "com.sist.dao.StudentVO",
+    "hakbun" : 6,
+    "name" : "소서노",
+    "kor" : 45,
+    "eng" : 67,
+    "math" : 78,
+    "phy" : 100,
+    "history" : 89,
+    "chem" : 100,
+    "subject" : "컴퓨터공학",
+    "total" : 479,
+    "avg" : 80.0
+}
+
+/* 7 */
+{
+    "_id" : ObjectId("595dddd3e4b0d6f65a15affa"),
+    "_class" : "com.sist.dao.StudentVO",
+    "hakbun" : 7,
+    "name" : "이산",
+    "kor" : 56,
+    "eng" : 78,
+    "math" : 100,
+    "phy" : 100,
+    "history" : 56,
+    "chem" : 97,
+    "subject" : "전자공학",
+    "total" : 487,
+    "avg" : 81.0
+}
+
+/* 8 */
+{
+    "_id" : ObjectId("595ddf15e4b0d6f65a15affb"),
+    "_class" : "com.sist.dao.StudentVO",
+    "hakbun" : 8,
+    "name" : "강감찬",
+    "kor" : 100,
+    "eng" : 67,
+    "math" : 89,
+    "phy" : 100,
+    "history" : 80,
+    "chem" : 100,
+    "subject" : "전자공학",
+    "total" : 536,
+    "avg" : 89.0
+}
+
+/* 9 */
+{
+    "_id" : ObjectId("595ddf29e4b0d6f65a15affc"),
+    "_class" : "com.sist.dao.StudentVO",
+    "hakbun" : 9,
+    "name" : "을지문덕",
+    "kor" : 45,
+    "eng" : 67,
+    "math" : 67,
+    "phy" : 78,
+    "history" : 78,
+    "chem" : 70,
+    "subject" : "컴퓨터공학",
+    "total" : 405,
+    "avg" : 68.0
+}
+
+/* 10 */
+{
+    "_id" : ObjectId("595ddf44e4b0d6f65a15affd"),
+    "_class" : "com.sist.dao.StudentVO",
+    "hakbun" : 10,
+    "name" : "전봉준",
+    "kor" : 60,
+    "eng" : 60,
+    "math" : 100,
+    "phy" : 67,
+    "history" : 65,
+    "chem" : 80,
+    "subject" : "컴퓨터공학",
+    "total" : 432,
+    "avg" : 72.0
+}
+
+/* 11 */
+{
+    "_id" : ObjectId("595ddf7fe4b0d6f65a15affe"),
+    "_class" : "com.sist.dao.StudentVO",
+    "hakbun" : 11,
+    "name" : "김두한",
+    "kor" : 56,
+    "eng" : 67,
+    "math" : 78,
+    "phy" : 56,
+    "history" : 90,
+    "chem" : 56,
+    "subject" : "화학과",
+    "total" : 403,
+    "avg" : 67.0
+}
+
+/* 12 */
+{
+    "_id" : ObjectId("595ddf98e4b0d6f65a15afff"),
+    "_class" : "com.sist.dao.StudentVO",
+    "hakbun" : 12,
+    "name" : "장보고",
+    "kor" : 45,
+    "eng" : 67,
+    "math" : 78,
+    "phy" : 90,
+    "history" : 56,
+    "chem" : 90,
+    "subject" : "화학과",
+    "total" : 426,
+    "avg" : 71.0
+}
+
+/* 13 */
+{
+    "_id" : ObjectId("595ddfb0e4b0d6f65a15b000"),
+    "_class" : "com.sist.dao.StudentVO",
+    "hakbun" : 13,
+    "name" : "계백",
+    "kor" : 67,
+    "eng" : 67,
+    "math" : 67,
+    "phy" : 90,
+    "history" : 78,
+    "chem" : 100,
+    "subject" : "컴퓨터공학",
+    "total" : 469,
+    "avg" : 78.0
+}
+
+/* 14 */
+{
+    "_id" : ObjectId("595ddfc7e4b0d6f65a15b001"),
+    "_class" : "com.sist.dao.StudentVO",
+    "hakbun" : 14,
+    "name" : "최영",
+    "kor" : 100,
+    "eng" : 100,
+    "math" : 67,
+    "phy" : 90,
+    "history" : 90,
+    "chem" : 100,
+    "subject" : "화학과",
+    "total" : 547,
+    "avg" : 91.0
+}
+
+/* 15 */
+{
+    "_id" : ObjectId("595ddfdee4b0d6f65a15b002"),
+    "_class" : "com.sist.dao.StudentVO",
+    "hakbun" : 15,
+    "name" : "김유신",
+    "kor" : 67,
+    "eng" : 78,
+    "math" : 89,
+    "phy" : 100,
+    "history" : 90,
+    "chem" : 100,
+    "subject" : "화학과",
+    "total" : 524,
+    "avg" : 87.0
+}
